@@ -6,4 +6,3 @@ spring:
   profiles:
     # 指定使用 application-dev.yml 文件
     active: dev
-
