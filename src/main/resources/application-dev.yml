@@ -4,12 +4,12 @@ spring:
     # 第一个数据源
     primary:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbcUrl: jdbc:mysql://172.31.25.95:31722/primary?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
+      jdbcUrl: jdbc:mysql://localhost:3601/primary?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
       username: root
-      password: 12netwyw#&*
+      password: 123456
     # 第二数据源
     secondary:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbcUrl: jdbc:mysql://172.31.25.95:31722/secondary?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
+      jdbcUrl: jdbc:mysql://localhost:3601/secondary?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
       username: root
-      password: 12netwyw#&*
+      password: 123456
